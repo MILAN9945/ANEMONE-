@@ -47,6 +47,12 @@ body {
     color: #000;
 }
 
+.hero-subtitle {
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+}
+
 /* секція about */
 
 .about-text {
