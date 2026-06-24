@@ -16,7 +16,6 @@ body {
     color: #fff;
 }
 
-.footer-title {}
 
 /* секція header */
 
@@ -36,7 +35,7 @@ body {
     padding: 16px 32px;
     width: 280px;
     height: 64px;
-    background: lightcoral;
+    background: pink;
 }
 
 /* секція hero */
@@ -78,6 +77,7 @@ body {
     font-weight: 600;
     font-size: 28px;
     color: #000;
+    opacity: 0.6;
 }
 
 /* секція delivery */
@@ -99,4 +99,48 @@ body {
     font-weight: 500;
     font-size: 32px;
     color: #000;
+}
+
+/* секція footer  */
+
+.footer-navigation {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Inter bold";
+}
+
+.footer-links {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Inter Medium";
+}
+
+.footer-opening {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Inter bold";
+}
+
+.footer-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Inter Medium";
+}
+
+.footer-contact {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Inter bold";
+}
+
+.footer-mention {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Inter Medium";
 }
