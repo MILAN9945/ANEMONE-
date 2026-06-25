@@ -1,5 +1,7 @@
 body {
-    font-family: "Montserrat"
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #000;
 }
 
 /* загальні стилі */
@@ -7,7 +9,6 @@ body {
 .section-title {
     font-weight: 700;
     font-size: 44px;
-    color: #000;
 }
 
 .links {
@@ -20,7 +21,6 @@ body {
 /* секція header */
 
 .header-links {
-    font-weight: 400;
     font-size: 20px;
     color: #000;
 }
@@ -32,7 +32,6 @@ body {
     color: #fff;
 
     border-radius: 38px;
-    padding: 16px 32px;
     width: 280px;
     height: 64px;
     background: pink;
@@ -41,24 +40,18 @@ body {
 /* секція hero */
 
 .hero-title {
-    font-weight: 400;
     font-size: 160px;
     text-align: center;
-    color: #000;
 }
 
 .hero-subtitle {
-    font-weight: 400;
     font-size: 32px;
-    color: #000;
 }
 
 /* секція about */
 
 .about-text {
-    font-weight: 400;
     font-size: 22px;
-    color: #000;
 }
 
 .about-photo {
@@ -76,13 +69,11 @@ body {
 .store-subtitle {
     font-weight: 500;
     font-size: 36px;
-    color: #000;
 }
 
 .store-text {
     font-weight: 600;
     font-size: 28px;
-    color: #000;
     opacity: 0.6;
 }
 
@@ -91,7 +82,6 @@ body {
 .delivery-text {
     font-weight: 500;
     font-size: 32px;
-    color: #000;
 }
 
 .delivery-photo {
@@ -104,7 +94,6 @@ body {
 .blog-subtitle {
     font-weight: 500;
     font-size: 32px;
-    color: #000;
 }
 
 /* секція footer  */
