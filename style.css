@@ -4,6 +4,10 @@ body {
     color: #000;
 }
 
+:root {
+   --link-color:  #fff;
+}
+
 /* загальні стилі */
 
 .section-title {
@@ -14,7 +18,7 @@ body {
 .links {
     font-weight: 500;
     font-size: 16px;
-    color: #fff;
+    color: var(--link-color);
 }
 
 
@@ -29,7 +33,7 @@ body {
     font-weight: 500;
     font-size: 28px;
     line-height: 86%;
-    color: #fff;
+    color: var(--link-color);
 
     border-radius: 38px;
     width: 280px;
@@ -101,41 +105,41 @@ body {
 .footer-navigation {
     font-weight: 700;
     font-size: 20px;
-    color: #fff;
+    color:var(--link-color);
     font-family: "Inter bold";
 }
 
 .footer-links {
     font-weight: 500;
     font-size: 16px;
-    color: #fff;
+    color:var(--link-color);
     font-family: "Inter Medium";
 }
 
 .footer-opening {
     font-weight: 700;
     font-size: 20px;
-    color: #fff;
+    color:var(--link-color);
     font-family: "Inter bold";
 }
 
 .footer-text {
     font-weight: 500;
     font-size: 16px;
-    color: #fff;
+    color:var(--link-color);
     font-family: "Inter Medium";
 }
 
 .footer-contact {
     font-weight: 700;
     font-size: 20px;
-    color: #fff;
+    color:var(--link-color);
     font-family: "Inter bold";
 }
 
 .footer-mention {
     font-weight: 500;
     font-size: 16px;
-    color: #fff;
+    color:var(--link-color);
     font-family: "Inter Medium";
 }
