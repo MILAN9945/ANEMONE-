@@ -6,6 +6,9 @@ body {
 
 :root {
    --link-color:  #fff;
+   --header-links-color: #000;
+   --button-color: pink;
+   --button-text-color: #fff;
 }
 
 /* загальні стилі */
@@ -26,19 +29,19 @@ body {
 
 .header-links {
     font-size: 20px;
-    color: #000;
+    color: var(--header-links-color);
 }
 
 .button {
     font-weight: 500;
     font-size: 28px;
     line-height: 86%;
-    color: var(--link-color);
+    color: var(--button-text-color);
 
     border-radius: 38px;
     width: 280px;
     height: 64px;
-    background: pink;
+    background: var(--button-color);
 }
 
 /* секція hero */
