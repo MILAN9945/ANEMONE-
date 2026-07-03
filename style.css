@@ -9,6 +9,10 @@ body {
    --header-links-color: #000;
    --button-color: pink;
    --button-text-color: #fff;
+   --footer-contact-color: #fff;
+   --footer-text-color: #fff;
+   --footer-opening-color: #fff;
+   --footer-navigation-color: #fff;
 }
 
 /* загальні стилі */
@@ -109,7 +113,7 @@ body {
 .footer-navigation {
     font-weight: 700;
     font-size: 20px;
-    color:var(--link-color);
+    color: var(--footer-navigation-color);
     font-family: "Inter bold";
 }
 
@@ -123,21 +127,21 @@ body {
 .footer-opening {
     font-weight: 700;
     font-size: 20px;
-    color:var(--link-color);
+    color: var(--footer-opening-color);
     font-family: "Inter bold";
 }
 
 .footer-text {
     font-weight: 500;
     font-size: 16px;
-    color:var(--link-color);
+    color: var(--footer-text-color);
     font-family: "Inter Medium";
 }
 
 .footer-contact {
     font-weight: 700;
     font-size: 20px;
-    color:var(--link-color);
+    color: var(--footer-contact-color);
     font-family: "Inter bold";
 }
 
