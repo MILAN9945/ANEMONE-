@@ -4,15 +4,23 @@ body {
     color: #000;
 }
 
+.container {
+    width: 1264px;
+    padding: 0px 16px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: solid red;
+}
+
 :root {
-   --link-color:  #fff;
-   --header-links-color: #000;
-   --button-color: pink;
-   --button-text-color: #fff;
-   --footer-contact-color: #fff;
-   --footer-text-color: #fff;
-   --footer-opening-color: #fff;
-   --footer-navigation-color: #fff;
+    --link-color: #fff;
+    --header-links-color: #000;
+    --button-color: pink;
+    --button-text-color: #fff;
+    --footer-contact-color: #fff;
+    --footer-text-color: #fff;
+    --footer-opening-color: #fff;
+    --footer-navigation-color: #fff;
 }
 
 /* загальні стилі */
@@ -120,7 +128,7 @@ body {
 .footer-links {
     font-weight: 500;
     font-size: 16px;
-    color:var(--link-color);
+    color: var(--link-color);
     font-family: "Inter Medium";
 }
 
@@ -148,6 +156,6 @@ body {
 .footer-mention {
     font-weight: 500;
     font-size: 16px;
-    color:var(--link-color);
+    color: var(--link-color);
     font-family: "Inter Medium";
 }
