@@ -39,6 +39,10 @@ body {
 
 /* секція header */
 
+.header {
+    margin-top: 40px;
+}
+
 .header-links {
     font-size: 20px;
     color: var(--header-links-color);
@@ -56,16 +60,57 @@ body {
     background: var(--button-color);
 }
 
+.header-nav {
+    display: flex;
+    padding: 12px;
+}
+
+.header-list {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    padding: 0px 306px 0px 261px;
+}
+
+.header-button {
+    background-color: #fff;
+    margin-left: auto;
+
+}
+
 /* секція hero */
 
+.hero {
+    padding-top: 64px;
+}
+
+
 .hero-title {
+    font-weight: 400;
     font-size: 160px;
     text-align: center;
 }
 
 .hero-subtitle {
-    font-size: 32px;
     font-weight: 400;
+    font-size: 32px;
+}
+
+
+
+.hero-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hero-item2 {
+    padding-right: 145px;
+}
+
+.hero-item1 {
+    padding-left: 421px;
+    margin-right: auto;
 }
 
 /* секція about */
