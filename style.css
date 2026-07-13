@@ -94,9 +94,14 @@ body {
 .hero-subtitle {
     font-weight: 400;
     font-size: 32px;
+    display: flex;
+    align-items: center;
+    padding-left: 210px;
 }
 
-
+.hero-box{
+    display: flex;
+}
 
 .hero-list {
     display: flex;
@@ -109,8 +114,7 @@ body {
 }
 
 .hero-item1 {
-    padding-left: 421px;
-    margin-right: auto;
+ margin: 0px 121px;
 }
 
 /* секція about */
