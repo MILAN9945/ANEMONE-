@@ -95,27 +95,23 @@ body {
 .hero-subtitle {
     font-weight: 400;
     font-size: 32px;
-    display: flex;
-    align-items: center;
-    padding-left: 210px;
+
+    max-width: 101px;
 }
 
 .hero-box {
     display: flex;
-}
-
-.hero-list {
-    display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+
+    gap: 110px;
 }
 
-.hero-item2 {
-    padding-right: 145px;
-}
+.hero-img {
+    flex-shrink: 0;
 
-.hero-item1 {
-    margin: 0px 121px;
+    width: 166px;
+    height: 166px;
 }
 
 /* секція about */
