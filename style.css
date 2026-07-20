@@ -28,6 +28,7 @@ body {
 .section-title {
     font-weight: 700;
     font-size: 44px;
+    margin-bottom: 26px;
 }
 
 .links {
@@ -40,7 +41,7 @@ body {
 /* секція header */
 
 .header {
-    margin-top: 40px;
+    padding-top: 28px;
 }
 
 .header-links {
@@ -49,6 +50,8 @@ body {
 }
 
 .button {
+    border: none;
+    display: block;
     font-weight: 500;
     font-size: 28px;
     line-height: 86%;
@@ -57,12 +60,11 @@ body {
     border-radius: 38px;
     width: 280px;
     height: 64px;
-    background: var(--button-color);
+    background: #e87f54
 }
 
 .header-nav {
     display: flex;
-    padding: 12px;
 }
 
 .header-list {
@@ -116,23 +118,24 @@ body {
 
 /* секція about */
 .about {
-    padding: 85px 0px 115px;
+    padding: 100px 0px 100px;
 }
 
 .about-box {
     display: flex;
+    align-items: center;
     gap: 90px;
 }
 
 .about-text {
     font-size: 22px;
-    margin: 174px 0px 115px;
+    
 }
 
 .about-photo {
     width: 632px;
     height: 344px;
-    margin-top: 90px;
+    
 }
 
 /* секція store */
@@ -142,9 +145,10 @@ body {
 
 .store-list {
     display: flex;
-    gap: 32px;
     flex-wrap: wrap;
-    margin: 134px 0px 60px;
+    column-gap: 32px;
+   row-gap: 64px;
+   margin-bottom: 60px;
 }
 
 .store-photo {
@@ -162,7 +166,6 @@ body {
     font-weight: 600;
     font-size: 28px;
     opacity: 0.6;
-    margin-bottom: 64px;
 }
 
 .store-button {
@@ -182,19 +185,22 @@ body {
 }
 
 .delivery-list {
-    margin: 134px 210px 60px 216px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 60px;
 }
 
 .delivery-item:nth-child(1) {
-    margin-bottom: 32px;
+    
 }
 
 .delivery-item:nth-child(2) {
-    margin-bottom: 32px;
+    
 }
 
 .delivery-item:nth-child(3) {
-    margin-bottom: 32px;
+    
 }
 
 /* секція blog */
@@ -207,18 +213,18 @@ body {
     gap: 32px;
     align-items: center;
     justify-content: center;
-    margin: 122px 44px;
+    margin: 80px 44px;
 }
 
 .blog-subtitle {
     font-weight: 500;
     font-size: 32px;
-
+    margin-top: 44px;
     text-align: center;
 }
 
 .blog-button {
-    margin: 48px 476px 0px;
+    margin: 48px auto 0px;
 }
 
 /* секція footer  */
@@ -230,7 +236,7 @@ body {
 .footer-container {
     display: flex;
     gap: 96px;
-    padding: 72px 48px 72px 24px;
+    padding: 72px 0px;
 }
 
 .footer-link-box {
