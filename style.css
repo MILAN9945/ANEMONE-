@@ -83,6 +83,9 @@ body {
 
 .hero {
     padding-top: 64px;
+    background-image: url(./img/image_home_page.webp);
+    background-repeat: no-repeat;
+background-size: 100%;
 }
 
 
