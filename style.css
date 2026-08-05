@@ -85,7 +85,11 @@ body {
     padding-top: 64px;
     background-image: url(./img/image_home_page.webp);
     background-repeat: no-repeat;
-background-size: 100%;
+    background-position: center;
+}
+
+.hero-container {
+   height: 793px;
 }
 
 
@@ -93,6 +97,8 @@ background-size: 100%;
     font-weight: 400;
     font-size: 160px;
     text-align: center;
+
+    margin-top: 140px;
 }
 
 .hero-subtitle {
@@ -100,14 +106,14 @@ background-size: 100%;
     font-size: 32px;
 
     max-width: 101px;
+    margin-right: 610px;
+    margin-top: 337px;
 }
 
 .hero-box {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    gap: 110px;
 }
 
 .hero-img {
@@ -115,6 +121,7 @@ background-size: 100%;
 
     width: 166px;
     height: 166px;
+    margin-top: 292px;
 }
 
 /* секція about */
@@ -355,4 +362,3 @@ background-size: 100%;
 .footer-mesengers {
     margin-left: auto;
 }
-
