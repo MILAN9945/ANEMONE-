@@ -82,10 +82,11 @@ body {
 /* секція hero */
 
 .hero {
-    padding-top: 64px;
+   padding: 64px 0px 50px;
     background-image: url(./img/image_home_page.webp);
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
 .hero-container {
@@ -126,7 +127,7 @@ body {
 
 /* секція about */
 .about {
-    padding: 85px 0px 100px;
+   padding:50px 0px;
 }
 
 .about-box {
@@ -148,7 +149,7 @@ body {
 
 /* секція store */
 .store {
-    padding-bottom: 86px;
+    padding: 50px 0px 100px;
 }
 
 .store-list {
@@ -253,7 +254,7 @@ body {
 
 /* секція blog */
 .blog {
-    padding: 89px 0px 100px;
+    padding: 100px 0px;
 }
 
 .blog-list {
