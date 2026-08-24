@@ -375,7 +375,8 @@ body {
 }
 
 .footer-icon {
-    fill: #ffffff;
+    fill: none;
+    stroke: #ffffff;
     width: 28px;
     height: 28px;
 }
