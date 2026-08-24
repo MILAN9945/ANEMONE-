@@ -63,6 +63,21 @@ body {
     background: #e87f54
 }
 
+.button:hover {
+  background-color: #E25B41;
+}
+
+.header-logo {
+    fill: #0E0E0E;
+    width: 72px;
+    height: 57px;
+}
+.header-tel {
+    fill: #0E0E0E;
+    width: 28px;
+    height: 28px;
+}
+
 .header-nav {
     display: flex;
 }
@@ -353,3 +368,14 @@ body {
     margin-left: auto;
 }
 
+.footer-logo {
+    fill: #ffffff;
+    width: 73px;
+    height: 57px;
+}
+
+.footer-icon {
+    fill: #ffffff;
+    width: 28px;
+    height: 28px;
+}
