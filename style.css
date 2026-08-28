@@ -64,7 +64,7 @@ body {
 }
 
 .button:hover {
-  background-color: #E25B41;
+    background-color: #E25B41;
 }
 
 .header-logo {
@@ -72,10 +72,12 @@ body {
     width: 72px;
     height: 57px;
 }
+
 .header-tel {
     fill: #0E0E0E;
     width: 28px;
     height: 28px;
+
 }
 
 .header-nav {
@@ -94,18 +96,23 @@ body {
     background-color: #fff;
 }
 
+.header-tel:hover {
+    fill: #e87f54;
+}
+
+
 /* секція hero */
 
 .hero {
-   padding: 64px 0px 50px;
+    padding: 64px 0px 50px;
     background-image: url(./img/image_home_page.webp);
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 
 .hero-container {
-   height: 793px;
+    height: 793px;
 }
 
 
@@ -142,7 +149,7 @@ body {
 
 /* секція about */
 .about {
-   padding:50px 0px;
+    padding: 50px 0px;
 }
 
 .about-box {
@@ -391,4 +398,3 @@ body {
     width: 28px;
     height: 28px;
 }
-
