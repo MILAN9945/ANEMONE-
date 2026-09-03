@@ -63,6 +63,7 @@
                     <h2 class="about-title section-title" id="ABOUT">ABOUT</h2>
                     <div class="about-line"></div>
                 </div>
+
                 <div class="about-box">
                     <p class="about-text">
                         We are a minimalistic flower studio. We love people and flowers. Therefore, every day we give
@@ -77,26 +78,41 @@
         </section>
         <section class="store">
             <div class="container">
-                <h2 class="store-title section-title" id="STORE">STORE</h2>
+                <div class="store-subbox">
+                    <h2 class="store-title section-title" id="STORE">STORE</h2>
+                    <div class="store-line"></div>
+                </div>
                 <ul class="store-list">
                     <li class="store-item">
                         <img class="store-photo" src="./img/bouquet1.webp" alt="bouquet1">
-                        <h3 class="store-subtitle">compliments</h3>
+                        <div class="store-subline-box">
+                            <h3 class="store-subtitle">compliments</h3>
+                            <div class="store-subline"></div>
+                        </div>
                         <p class="store-text">from $15</p>
                     </li>
                     <li class="store-item">
                         <img class="store-photo" src="./img/bouquet2.webp" alt="bouquet2">
-                        <h3 class="store-subtitle">bouquets size S</h3>
+                        <div class="store-subline-box">
+                            <h3 class="store-subtitle">bouquets size S</h3>
+                            <div class="store-subline"></div>
+                        </div>
                         <p class="store-text">from $25</p>
                     </li>
                     <li class="store-item">
                         <img class="store-photo" src="./img/bouquet3.webp" alt="bouquet3">
-                        <h3 class="store-subtitle">bouquets size M</h3>
+                        <div class="store-subline-box">
+                            <h3 class="store-subtitle">bouquets size M</h3>
+                            <div class="store-subline"></div>
+                        </div>
                         <p class="store-text">from $45</p>
                     </li>
                     <li class="store-item">
                         <img class="store-photo" src="./img/bouquet4.webp" alt="bouquet4">
-                        <h3 class="store-subtitle">bouquets size L</h3>
+                        <div class="store-subline-box">
+                            <h3 class="store-subtitle">bouquets size L</h3>
+                            <div class="store-subline"></div>
+                        </div>
                         <p class="store-text">from $60</p>
                     </li>
                 </ul>
@@ -105,7 +121,10 @@
         </section>
         <section class="delivery">
             <div class="container">
-                <h2 class="delivery-title section-title" id="Delivery">DELIVERY</h2>
+                <div class="delivery-subbox">
+                    <h2 class="delivery-title section-title" id="Delivery">DELIVERY</h2>
+                    <div class="delivery-line"></div>
+                </div>
                 <ol class="delivery-list">
                     <li class="delivery-item">
                         <div class="delivery-namber-list">
@@ -138,11 +157,28 @@
         </section>
         <section class="blog">
             <div class="container">
-                <h2 class="blog-title section-title" id="BLOG">BLOG</h2>
+                <div class="blog-subbox">
+                    <h2 class="blog-title section-title" id="BLOG">BLOG</h2>
+                    <div class="blog-line"></div>
+                </div>
                 <ul class="blog-list">
-                    <li class="blog-item"><img class="blog-img" src="./img/flowers_image1.webp" alt="Foto1"></li>
+                    <li class="blog-item">
+                        <button class="blog-arrow">
+                            <svg class="blog-svg">
+                                <use href="#icon-arrow-left"></use>
+                            </svg>
+                        </button>
+                        <img class="blog-img" src="./img/flowers_image1.webp" alt="Foto1">
+                    </li>
                     <li class="blog-item"><img class="blog-img" src="./img/flowers_image2.webp" alt="Foto2"></li>
-                    <li class="blog-item"><img class="blog-img" src="./img/flowers_image3.webp" alt="Foto3"></li>
+                    <li class="blog-item">
+                        <img class="blog-img" src="./img/flowers_image3.webp" alt="Foto3">
+                        <button class="blog-arrow">
+                            <svg class="blog-svg">
+                                <use href="#icon-arrow-right"></use>
+                            </svg>
+                        </button>
+                    </li>
                 </ul>
                 <h3 class="blog-subtitle">Follow to our newsletter</h3>
                 <button class="blog-button button" type="button">Subscribe</button>
