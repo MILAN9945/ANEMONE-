@@ -161,36 +161,36 @@
                     <div class="blog-line"></div>
                 </div>
                 <div class="slider">
-                <button class="blog-arrow left">
-                    <svg class="blog-svg" width="97" height="64" viewBox="0 0 97 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="64.5" cy="32" r="31.5" stroke="black" />
-                        <path
-                            d="M0.146447 31.6464C-0.0488155 31.8417 -0.0488155 32.1583 0.146447 32.3536L3.32843 35.5355C3.52369 35.7308 3.84027 35.7308 4.03553 35.5355C4.2308 35.3403 4.2308 35.0237 4.03553 34.8284L1.20711 32L4.03553 29.1716C4.2308 28.9763 4.2308 28.6597 4.03553 28.4645C3.84027 28.2692 3.52369 28.2692 3.32843 28.4645L0.146447 31.6464ZM0.5 32.5H66.5V31.5H0.5V32.5Z"
-                            fill="black" />
-                    </svg>
-                </button>
-                <ul class="blog-list">
-                    <li class="blog-item">
-                                                <img class="blog-img" src="./img/flowers_image1.webp" alt="Foto1">
-                    </li>
-                    <li class="blog-item"><img class="blog-img" src="./img/flowers_image2.webp" alt="Foto2"></li>
-                    <li class="blog-item">
-                        <img class="blog-img" src="./img/flowers_image3.webp" alt="Foto3">
-                    </li>
-                </ul>
-                <button class="blog-arrow right">
-                    <svg class="blog-svg" width="97" height="64" viewBox="0 0 97 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="32" cy="32" r="31.5" stroke="black" />
-                        <path
-                            d="M96.3536 32.3536C96.5488 32.1583 96.5488 31.8417 96.3536 31.6464L93.1716 28.4645C92.9763 28.2692 92.6597 28.2692 92.4645 28.4645C92.2692 28.6597 92.2692 28.9763 92.4645 29.1716L95.2929 32L92.4645 34.8284C92.2692 35.0237 92.2692 35.3403 92.4645 35.5355C92.6597 35.7308 92.9763 35.7308 93.1716 35.5355L96.3536 32.3536ZM30 32.5H96V31.5H30V32.5Z"
-                            fill="black" />
-                    </svg>
-                </button>
-            </div>
+                    <button class="blog-arrow left">
+                        <svg class="blog-svg" width="97" height="64" viewBox="0 0 97 64" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="64.5" cy="32" r="31.5" stroke="black" />
+                            <path
+                                d="M0.146447 31.6464C-0.0488155 31.8417 -0.0488155 32.1583 0.146447 32.3536L3.32843 35.5355C3.52369 35.7308 3.84027 35.7308 4.03553 35.5355C4.2308 35.3403 4.2308 35.0237 4.03553 34.8284L1.20711 32L4.03553 29.1716C4.2308 28.9763 4.2308 28.6597 4.03553 28.4645C3.84027 28.2692 3.52369 28.2692 3.32843 28.4645L0.146447 31.6464ZM0.5 32.5H66.5V31.5H0.5V32.5Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                    <ul class="blog-list">
+                        <li class="blog-item">
+                            <img class="blog-img" src="./img/flowers_image1.webp" alt="Foto1">
+                        </li>
+                        <li class="blog-item"><img class="blog-img" src="./img/flowers_image2.webp" alt="Foto2"></li>
+                        <li class="blog-item">
+                            <img class="blog-img" src="./img/flowers_image3.webp" alt="Foto3">
+                        </li>
+                    </ul>
+                    <button class="blog-arrow right">
+                        <svg class="blog-svg" width="97" height="64" viewBox="0 0 97 64" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="31.5" stroke="black" />
+                            <path
+                                d="M96.3536 32.3536C96.5488 32.1583 96.5488 31.8417 96.3536 31.6464L93.1716 28.4645C92.9763 28.2692 92.6597 28.2692 92.4645 28.4645C92.2692 28.6597 92.2692 28.9763 92.4645 29.1716L95.2929 32L92.4645 34.8284C92.2692 35.0237 92.2692 35.3403 92.4645 35.5355C92.6597 35.7308 92.9763 35.7308 93.1716 35.5355L96.3536 32.3536ZM30 32.5H96V31.5H30V32.5Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                </div>
                 <h3 class="blog-subtitle">Follow to our newsletter</h3>
-                <button class="blog-button button" type="button">Subscribe</button>
+                <button class="blog-button button" type="button" data-open>Subscribe</button>
             </div>
         </section>
     </main>
@@ -258,6 +258,26 @@
             </ul>
         </div>
     </footer>
+    <div class="backdrop is-headen" data-modal>
+        <div class="modal">
+            <img src="./img/modal-img.webp" alt="" class="modal-img">
+            <div class="subbox">
+                <button type="button" class="close">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" data-close>
+                        <path d="M17 1L1 17M17 17L1 1L17 17Z" stroke="black" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </button>
+                <h2 class="modal-title">Follow to our newsletter</h2>
+                <p class="modal-text">Be the first to get exclusive offers and the latest news on our product directly
+                    in your box.</p>
+                <label class="modal-lbl" for="">Email</label>
+                <input placeholder="Your Email" class="modal-input" type="text">
+                <button class="submit">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./js/modal.js"></script>
 </body>
 
 </html>

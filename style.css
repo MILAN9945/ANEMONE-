@@ -539,3 +539,90 @@ body {
     width: 28px;
     height: 28px;
 }
+
+.backdrop {
+    background-color: #00000030;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.is-headen {
+    opacity: 1;
+    pointer-events: none;
+}
+
+.modal {
+    background-color: #fff;
+    width: 860px;
+    height: auto;
+    display: flex;
+
+}
+
+.modal-img {}
+
+.subbox {
+    padding: 111px 40px 112px;
+    position: relative;
+}
+
+.close {
+    background-color: transparent;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.modal-title {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.modal-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #5c5c5c;
+    max-width: 336px;
+    margin-bottom: 36px;
+}
+
+.modal-lbl {
+    font-weight: 500;
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+.modal-input {
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    width: 100%;
+    height: 49px;
+    margin-bottom: 28px;
+    margin-top: 8px;
+    padding-left: 11px;
+}
+
+.submit {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    padding: 15px 126px;
+    width: 100%;
+    height: 50px;
+
+    background-color: #E86F54;
+}
