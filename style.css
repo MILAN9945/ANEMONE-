@@ -580,6 +580,16 @@ body {
     right: 24px;
 }
 
+.modal-close {
+    stroke: #000000;
+    width: 24px;
+    height: 24px;
+}
+
+.modal-close:hover {
+    stroke: #E25B41;
+}
+
 .modal-title {
     font-weight: 600;
     font-size: 28px;
