@@ -567,28 +567,58 @@ body {
 }
 
 .modal-img {}
+.modal-img:hover {
+    transform: rotate(-360deg);
+    transition-property: background-color, transform;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 500ms; 
+
+}
 
 .subbox {
     padding: 111px 40px 112px;
     position: relative;
 }
 
-.close {
+@keyframes animateY110 {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+     
+      transform: translateX(-1110px); 
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  
+  .close {
     background-color: transparent;
     position: absolute;
     top: 24px;
     right: 24px;
-}
-
-.modal-close {
+    border: none;
+    cursor: pointer;
+    animation: animateY110 3000ms infinite 1000ms;
+  }
+  
+  .modal-close {
     stroke: #000000;
     width: 24px;
     height: 24px;
-}
-
-.modal-close:hover {
+    transition: stroke 300ms ease, background-color 300ms ease; 
+  }
+  
+  
+  .close:hover .modal-close {
     stroke: #E25B41;
-}
+    background-color: brown;
+     transform: scale(2.35); 
+  }
+ 
 
 .modal-title {
     font-weight: 600;
@@ -596,6 +626,15 @@ body {
     text-align: center;
     color: #000;
     margin-bottom: 24px;
+
+}
+
+.modal-title:hover {
+    background-color: teal;
+    transform: rotate(180deg);
+    transition-property: background-color, transform;
+  transition-duration: 500ms;
+   transition-delay: 500ms;
 }
 
 .modal-text {
@@ -635,4 +674,14 @@ body {
     height: 50px;
 
     background-color: #E86F54;
+}
+
+.submit:hover {
+    background-color: brown;
+    transform: rotate(720deg);
+    transition-property: background-color, transform;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 500ms;
+
 }
