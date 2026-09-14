@@ -587,10 +587,10 @@ body {
     }
     50% {
      
-      transform: translateX(-1110px); 
+      transform: translateX(-710px); 
     }
     100% {
-      transform: translateX(0);
+      transform: translateX(0);                                
     }
   }
   
@@ -602,7 +602,7 @@ body {
     right: 24px;
     border: none;
     cursor: pointer;
-    animation: animateY110 3000ms infinite 1000ms;
+    animation: animateY110 5000ms infinite 4000ms;
   }
   
   .modal-close {
@@ -630,8 +630,9 @@ body {
 }
 
 .modal-title:hover {
-    background-color: teal;
-    transform: rotate(180deg);
+    background-color: rgb(188, 63, 32);
+    color: #e87f54;
+    transform: rotate(360deg);
     transition-property: background-color, transform;
   transition-duration: 500ms;
    transition-delay: 500ms;
@@ -680,8 +681,9 @@ body {
     background-color: brown;
     transform: rotate(720deg);
     transition-property: background-color, transform;
-  transition-duration: 500ms;
+  transition-duration: 2000ms;
   transition-timing-function: ease-in-out;
-  transition-delay: 500ms;
+  transition-delay: 2000ms;
+
 
 }
