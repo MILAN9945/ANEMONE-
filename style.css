@@ -249,6 +249,10 @@ body {
 
 .store-button {
     margin: 0px 476px;
+    transition-duration: 1s;
+}
+.store-button:hover {
+    transition-duration: 1s;
 }
 
 .store-subbox {
@@ -387,6 +391,10 @@ body {
 
 .blog-button {
     margin: 48px auto 0px;
+    transition-duration: 1s;
+}
+.blog-button:hover {
+    transition-duration: 1s;
 }
 
 .blog-svg {
@@ -567,12 +575,13 @@ body {
 }
 
 .modal-img {}
+
 .modal-img:hover {
     transform: rotate(-360deg);
     transition-property: background-color, transform;
-  transition-duration: 500ms;
-  transition-timing-function: ease-in-out;
-  transition-delay: 500ms; 
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 500ms;
 
 }
 
@@ -583,19 +592,21 @@ body {
 
 @keyframes animateY110 {
     0% {
-      transform: translateX(0);
+        transform: translateX(0);
     }
+
     50% {
-     
-      transform: translateX(-710px); 
+
+        transform: translateX(-410px);
     }
+
     100% {
-      transform: translateX(0);                                
+        transform: translateX(0);
     }
-  }
-  
-  
-  .close {
+}
+
+
+.close {
     background-color: transparent;
     position: absolute;
     top: 24px;
@@ -604,22 +615,22 @@ body {
     cursor: pointer;
     animation: animateY110 3000ms infinite 100ms;
 
-  }
-  
-  .modal-close {
+}
+
+.modal-close {
     stroke: #000000;
     width: 24px;
     height: 24px;
-    transition: stroke 300ms ease, background-color 100ms ease; 
-  }
-  
-  
-  .close:hover .modal-close {
+    transition: stroke 300ms ease, background-color 100ms ease;
+}
+
+
+.close:hover .modal-close {
     stroke: #E25B41;
     background-color: brown;
-     transform: scale(2.35); 
-  }
- 
+    transform: scale(2.35);
+}
+
 
 .modal-title {
     font-weight: 600;
@@ -633,10 +644,9 @@ body {
 .modal-title:hover {
     background-color: rgb(188, 63, 32);
     color: #e87f54;
-    transform: rotate(360deg);
-    transition-property: background-color, transform;
-  transition-duration: 500ms;
-   transition-delay: 500ms;
+    transform: scale(1.6);
+    transition-duration: 500ms;
+    transition-delay: 500ms;
 }
 
 .modal-text {
@@ -682,9 +692,9 @@ body {
     background-color: brown;
     transform: rotate(720deg);
     transition-property: background-color, transform;
-  transition-duration: 2000ms;
-  transition-timing-function: ease-in-out;
-  transition-delay: 2000ms;
+    transition-duration: 2000ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2000ms;
 
 
 }
