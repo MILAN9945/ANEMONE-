@@ -587,7 +587,7 @@ body {
     }
     50% {
      
-      transform: translateX(-1110px); 
+      transform: translateX(-710px); 
     }
     100% {
       transform: translateX(0);
@@ -602,14 +602,14 @@ body {
     right: 24px;
     border: none;
     cursor: pointer;
-    animation: animateY110 3000ms infinite 1000ms;
+    animation: animateY110 3000ms infinite 100ms;
   }
   
   .modal-close {
     stroke: #000000;
     width: 24px;
     height: 24px;
-    transition: stroke 300ms ease, background-color 300ms ease; 
+    transition: stroke 300ms ease, background-color 100ms ease; 
   }
   
   
