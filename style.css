@@ -27,6 +27,11 @@ body {
     --footer-opening-color: #fff;
     --footer-navigation-color: #fff;
 }
+/* animations */
+.shake-horizontal {
+	-webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
 
 /* загальні стилі */
 
@@ -91,6 +96,12 @@ body {
     width: 28px;
     height: 28px;
 
+    animation-name: animate__heartBeat;
+    animation-duration: 1s;    
+    animation-timing-function: ease-out; 
+    animation-fill-mode: forwards;
+   
+
 }
 
 .header-nav {
@@ -135,6 +146,17 @@ body {
     text-align: center;
 
     margin-top: 140px;
+    animation-name: movetitle;
+    animation-duration: 2.5s;    
+    animation-timing-function: ease-out; 
+    animation-fill-mode: forwards;
+    animation-name: movetitle;
+}
+.hero-title:hover {
+    color: red;
+    transform: rotate(360deg);
+    transition-duration: 2s;
+    cursor: pointer;
 }
 
 .hero-subtitle {
@@ -159,6 +181,7 @@ body {
     height: 166px;
     margin-top: 292px;
 }
+
 
 /* секція about */
 .about {

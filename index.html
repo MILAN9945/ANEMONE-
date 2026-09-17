@@ -14,6 +14,14 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/animejs/dist/bundles/anime.umd.min.js"></script>
+    <script>
+        const { animate } = anime;
+    </script>
     <title>Anemone</title>
 </head>
 
@@ -35,7 +43,7 @@
                     <li class="header-item"><a class="header-links" href="#Delivery">Delivery</a></li>
                     <li class="header-item"><a class="header-links" href="#BLOG">Blog</a></li>
                 </ul>
-                <button class="header-button" type="submit">
+                <button class="header-button animate__animated animate__heartBeat" type="submit">
                     <!-- <img class="header-tel" src="./img/tel.webp" alt="logo tel"> -->
                     <svg class="header-tel">
                         <use href="./icon/symbol-defs.svg#icon-tel"></use>
@@ -52,7 +60,7 @@
                         flower studio
                     </h3>
                     <!-- <img class="hero-logo" src="./img/image_home_page.webp" alt="logo2"> -->
-                    <img class="hero-img" src="./img/btn.webp" alt="btn">
+                    <img class="hero-img animate__animated animate__swing" src="./img/btn.webp" alt="btn">
                 </div>
                 <h1 class="hero-title" id="Anemone">ANEMONE</h1>
             </div>
@@ -64,7 +72,8 @@
                     <div class="about-line"></div>
                 </div>
                 <div class="about-box">
-                    <p class="about-text">
+                    <p class="about-text" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                        data-aos-duration="4000">
                         We are a minimalistic flower studio. We love people and flowers. Therefore, every day we give
                         people
                         the
@@ -115,7 +124,7 @@
                         <p class="store-text">from $60</p>
                     </li>
                 </ul>
-                <button class="store-button button">Order flowers</button>
+                <button class="store-button button" data-aos="zoom-in">Order flowers</button>
             </div>
         </section>
         <section class="delivery">
@@ -162,7 +171,7 @@
                 </div>
                 <div class="slider">
                     <button class="blog-arrow left">
-                        <svg class="blog-svg"> 
+                        <svg class="blog-svg">
                             <use href="./icon/symbol-defs.svg#icon-arrow"></use>
                         </svg>
                     </button>
@@ -182,7 +191,7 @@
                     </button>
                 </div>
                 <h3 class="blog-subtitle">Follow to our newsletter</h3>
-                <button class="blog-button button" type="button" data-open>Subscribe</button>
+                <button class="blog-button button shake-horizontal" type="button" data-open>Subscribe</button>
             </div>
         </section>
     </main>
@@ -190,10 +199,10 @@
         <div class="container footer-container">
             <div class="footer-logo-box">
                 <!-- <img class="footer-photo" src="./img/logo1.webp" alt="logo2"> -->
-                 <a class="footer-logo-link" href="./index.html">
-                <svg class="footer-logo">
-                    <use href="./icon/symbol-defs.svg#icon-logo"></use>
-                </svg>
+                <a class="footer-logo-link" href="./index.html">
+                    <svg class="footer-logo">
+                        <use href="./icon/symbol-defs.svg#icon-logo"></use>
+                    </svg>
                 </a>
             </div>
             <div class="footer-link-box">
@@ -271,6 +280,10 @@
         </div>
     </div>
     <script type="module" src="./js/modal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
