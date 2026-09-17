@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     font-family: "Montserrat";
     font-weight: 400;
@@ -416,10 +421,16 @@ body {
 }
 
 .blog-svg {
-    stroke: #000000;
+stroke: #000000;
+fill: transparent;
     width: 96px;
     height: 64px;
 }
+
+.oposite {
+    transform: scaleX(-1);
+}
+
 
 .blog-arrow {
     top: 50%;
@@ -619,6 +630,7 @@ body {
 
 .modal-close {
     stroke: #000000;
+    fill: #000000;
     width: 24px;
     height: 24px;
     transition: stroke 300ms ease, background-color 100ms ease;
