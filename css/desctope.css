@@ -1,0 +1,15 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1264px;
+        padding: 0px 16px;
+    }
+
+    .header-list {
+        gap: 48px;
+        margin-left: 264px;
+    }
+    .header-tel {
+        width: 28px;
+        height: 28px;
+    }
+}

@@ -1,0 +1,63 @@
+.container {
+    width: 320px;
+    padding: 0px 16px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: solid red;
+}
+
+/* секція header */
+
+.header {
+    padding-top: 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff54;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 34px 1px #db5a5ae1;
+    z-index: 2;
+}
+
+.header-links {
+    font-size: 20px;
+    color: var(--header-links-color);
+}
+
+.header-list {
+    display: none;
+}
+
+.header-logo {
+    fill: #0E0E0E;
+    width: 45px;
+    height: 35px;
+    animation-name: hiro-logo;
+    animation-duration: 5s;
+}
+
+.header-tel {
+    fill: #0E0E0E;
+    width: 22px;
+    height: 22px;
+    margin-left: 183px;
+
+    animation-name: animate__heartBeat;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.header-nav {
+    display: flex;
+}
+
+
+.header-button {
+    background-color: transparent;
+}
+
+.header-tel:hover {
+    fill: #e87f54;
+}

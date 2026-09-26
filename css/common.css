@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #000;
+}
+
+
+
+:root {
+    --link-color: #fff;
+    --header-links-color: #000;
+    --button-color: pink;
+    --button-text-color: #fff;
+    --footer-contact-color: #fff;
+    --footer-text-color: #fff;
+    --footer-opening-color: #fff;
+    --footer-navigation-color: #fff;
+}
+
+
+/* animations */
+.shake-horizontal {
+    -webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+/* загальні стилі */
+
+.section-title {
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 80px;
+}
+
+.links {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--link-color);
+}
