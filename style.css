@@ -11,215 +11,42 @@
 
 
 
-/* секція hero */
-
-.hero {
-    padding: 64px 0px 50px;
-    background-image: url(./img/image_home_page.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.hero-container {
-    height: 793px;
-}
 
 
-.hero-title {
-    font-weight: 400;
-    font-size: 160px;
-    text-align: center;
-
-    margin-top: 140px;
-    animation-name: movetitle;
-    animation-duration: 2.5s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
-    animation-name: movetitle;
-}
-
-.hero-title:hover {
-    color: red;
-    transform: rotate(360deg);
-    transition-duration: 2s;
-    cursor: pointer;
-}
-
-.hero-subtitle {
-    font-weight: 400;
-    font-size: 32px;
-
-    max-width: 101px;
-    margin-right: 610px;
-    margin-top: 337px;
-}
-
-.hero-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-img {
-    flex-shrink: 0;
-
-    width: 166px;
-    height: 166px;
-    margin-top: 292px;
-}
 
 
-/* секція about */
-.about {
-    padding: 50px 0px;
-}
 
-.about-box {
-    display: flex;
-    align-items: center;
-    gap: 90px;
-}
 
-.about-text {
-    font-size: 22px;
 
-}
 
-.about-photo {
-    width: 632px;
-    height: 344px;
 
-}
 
-.about-subbox {
-    display: flex;
-    gap: 16px;
-}
 
-.about-title {
-    position: relative;
-    display: inline-block;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    margin: 0;
-}
 
-/* .about-title::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    width: 1000px;
-    height: 2px;
-    background-color: #333;
-    margin-left: 15px;
-}
 
-.about-subbox::after {
-    content: "";
-    flex-grow: 1;
-    height: 1px;
-    background-color: #333;
-} */
 
-.about-line {
-    outline: 0px solid #111111;
-    width: 100%;
-    height: 1px;
-    background-color: #111111;
-    margin-top: 27px;
-}
 
-/* секція store */
-.store {
-    padding: 50px 0px 100px;
-}
 
-.store-list {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 32px;
-    row-gap: 64px;
-    margin-bottom: 60px;
-    animation-name: wobble-hor-bottom;
-    animation-duration: 4s;
-}
 
-.store-photo {
-    width: 600px;
-    height: 542px;
-    animation-name: wobble-hor-bottom;
-    animation-duration: 7s;
-}
 
-.store-subtitle {
-    font-weight: 500;
-    font-size: 36px;
-    margin: 16px 0px 4px;
-    white-space: nowrap;
-}
 
-.store-text {
-    font-weight: 600;
-    font-size: 28px;
-    opacity: 0.6;
-}
 
-.store-button {
-    margin: 0px 476px;
-    transition-duration: 1s;
-}
 
-.store-button:hover {
-    transition-duration: 1s;
-}
 
-.store-subbox {
-    display: flex;
-    position: relative;
-    gap: 16px;
-}
 
-.store-line {
-    outline: 0px solid #111111;
-    width: 100%;
-    height: 1px;
-    background-color: #111111;
-    margin-top: 27px;
-}
 
-.store-subline-box {
-    display: flex;
-    position: relative;
-    gap: 16px;
-}
 
-.store-subline {
-    outline: 0px solid #111111;
-    width: 100%;
-    height: 1px;
-    background-color: #111111;
-    margin-top: 40px;
-}
 
-.button {
-    border: none;
-    display: block;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 86%;
-    color: var(--button-text-color);
 
-    border-radius: 38px;
-    width: 280px;
-    height: 64px;
-    background: #e87f54
-}
 
-.button:hover {
-    background-color: #E25B41;
-}
+
+
+
+
+
+
+
+
 
 
 /* секція delivery */
