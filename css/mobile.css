@@ -82,7 +82,7 @@
     font-size: 52px;
     text-align: center;
 
-    margin-top: 29px;
+    margin-top: 2px;
     animation-name: movetitle;
     animation-duration: 2.5s;
     animation-timing-function: ease-out;
@@ -147,6 +147,9 @@
 }
 
 .about-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 80px;
     position: relative;
     display: inline-block;
     font-family: Arial, sans-serif;
@@ -176,7 +179,7 @@
     width: 100%;
     height: 1px;
     background-color: #111111;
-    margin-top: 27px;
+    margin-top: 14px;
 }
 /* секція store */
 .store {
@@ -188,6 +191,7 @@
     flex-wrap: wrap;
     column-gap: 16px;
     row-gap: 16px;
+    margin-top: 45px;
     margin-bottom: 60px;
     animation-name: wobble-hor-bottom;
     animation-duration: 4s;
@@ -232,7 +236,7 @@
     width: 100%;
     height: 1px;
     background-color: #111111;
-    margin-top: 27px;
+    margin-top: 14px;
 }
 /* .store-subline-box {
     display: flex;

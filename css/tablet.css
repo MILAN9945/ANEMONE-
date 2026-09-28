@@ -63,6 +63,12 @@
         font-size: 20px;
     }
 
+    .about-title {
+        font-weight: 700;
+        font-size: 44px;
+        margin-bottom: 80px;
+    }
+
     .about-photo {
         width: 344px;
         height: 217px;
@@ -72,11 +78,23 @@
         gap: 16px;
     }
 
+    .about-line {
+        margin-top: 27px;
+    }
+
     /* секція store */
+
+    .store-title {
+        font-weight: 700;
+        font-size: 44px;
+        /* margin-bottom: 80px; */
+    }
+
     .store-list {
         column-gap: 32px;
         row-gap: 40px;
         margin-bottom: 60px;
+        margin-top: 0px;
 
     }
 
@@ -99,18 +117,13 @@
 
 
 
-
     .store-subbox {
         display: flex;
         position: relative;
         gap: 16px;
     }
-
     .store-line {
-        outline: 0px solid #111111;
-        width: 100%;
-        height: 1px;
-        background-color: #111111;
+        
         margin-top: 27px;
     }
 
