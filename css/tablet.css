@@ -31,7 +31,7 @@
     .hero-title {
         font-weight: 400;
         font-size: 120px;
-        margin-top: 140px;
+        margin-top: 235px;
     }
 
     .hero-subtitle {
@@ -39,24 +39,27 @@
         font-size: 24px;
 
         max-width: 76px;
-        margin-top: 338px;
+        margin-top: 210px;
     }
 
     .hero-box {
         gap: 470px;
     }
 
-    .hero-img {
+    .hero-img-tablet {
+        display: flex;
         width: 145px;
         height: 150px;
-        margin-top: 300px;
+        margin-top: 200px;
     }
 
+    .hero-img-mobile {
+     display: none;
+    }
     /* секція about */
     .about-box {
         flex-direction: row;
         gap: 54px;
-        margin-top: 56px;
     }
 
     .about-text {
@@ -66,7 +69,7 @@
     .about-title {
         font-weight: 700;
         font-size: 44px;
-        margin-bottom: 80px;
+        margin-bottom: 30px;
     }
 
     .about-photo {
@@ -94,7 +97,7 @@
         column-gap: 32px;
         row-gap: 40px;
         margin-bottom: 60px;
-        margin-top: 0px;
+        margin-top: 60px;
 
     }
 
@@ -148,4 +151,67 @@
         height: 64px;
 
     }
+    /* секція delivery */
+
+.delivery {
+  
+    padding-bottom: 250px;
+    background-size: 100% 264px;
+}
+.delivery-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.delivery-text:nth-child(1) {
+    max-width: 544px;
+}
+
+.delivery-text:nth-child(2) {
+    max-width: 593px;
+}
+
+.delivery-text:nth-child(3) {
+    max-width: 582px;
+}
+
+.delivery-text:nth-child(4) {
+    max-width: 476px;
+}
+
+.delivery-namber {
+    width: 64px;
+    height: 64px;
+    font-size: 26px;
+    margin-right: 20px;
+    margin-left: 24px;
+}
+
+.delivery-namber-list {
+    width: 628px;
+    height: 64px;
+}
+
+.delivery-photo {
+    width: 768px;
+    height: 264px;
+}
+
+.delivery-list {
+    gap: 20px;
+}
+
+.delivery-line {
+    outline: 0px solid #111111;
+    width: 100%;
+    height: 1px;
+    background-color: #111111;
+    margin-top: 25px;
+}
+.delivery-title {
+    font-size: 44px;
+}
 }

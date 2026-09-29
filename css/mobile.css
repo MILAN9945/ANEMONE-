@@ -82,7 +82,7 @@
     font-size: 52px;
     text-align: center;
 
-    margin-top: 2px;
+    margin-top: 40px;
     animation-name: movetitle;
     animation-duration: 2.5s;
     animation-timing-function: ease-out;
@@ -102,7 +102,7 @@
     font-size: 14px;
 
     max-width: 46px;
-    margin-top: 174px;
+    margin-top: 130px;
 }
 
 .hero-box {
@@ -112,11 +112,19 @@
     align-items: center;
 }
 
-.hero-img {
+.hero-img-mobile {
     flex-shrink: 0;
     width: 64px;
     height: 76px;
-    margin-top: 154px;
+    margin-top: 133px;
+}
+
+.hero-img-tablet {
+    display: none;
+}
+
+.hero-img-desctope {
+    display: none;
 }
 
 /* секція about */
@@ -129,7 +137,6 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    margin-top: 34px;
 }
 
 .about-text {
@@ -149,13 +156,13 @@
 .about-title {
     font-weight: 700;
     font-size: 24px;
-    margin-bottom: 80px;
+    margin-bottom: 32px;
     position: relative;
     display: inline-block;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    margin: 0;
 }
+
 /* .about-title::after {
     content: "";
     position: absolute;
@@ -181,6 +188,7 @@
     background-color: #111111;
     margin-top: 14px;
 }
+
 /* секція store */
 .store {
     padding: 50px 0px 100px;
@@ -191,23 +199,26 @@
     flex-wrap: wrap;
     column-gap: 16px;
     row-gap: 16px;
-    margin-top: 45px;
-    margin-bottom: 60px;
+    margin-top: 32px;
+    margin-bottom: 32px;
     animation-name: wobble-hor-bottom;
     animation-duration: 4s;
 }
+
 .store-photo {
     width: 136px;
     height: 155px;
     animation-name: wobble-hor-bottom;
     animation-duration: 7s;
 }
+
 .store-subtitle {
     font-weight: 500;
     font-size: 16px;
     margin: auto;
     white-space: nowrap;
 }
+
 .store-text {
     font-weight: 600;
     font-size: 12px;
@@ -225,6 +236,7 @@
 .store-button:hover {
     transition-duration: 1s;
 }
+
 .store-subbox {
     display: flex;
     position: relative;
@@ -238,6 +250,7 @@
     background-color: #111111;
     margin-top: 14px;
 }
+
 /* .store-subline-box {
     display: flex;
     position: relative;
@@ -262,10 +275,99 @@
     border-radius: 38px;
     width: 208px;
     height: 44px;
-    background: #e87f54
+    background: #e86f54
 }
 
 .button:hover {
     background-color: #E25B41;
 }
 
+/* секція delivery */
+
+.delivery {
+    background-image: url(../img/image_delivery.webp);
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 135px;
+}
+
+.delivery-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.delivery-text:nth-child(1) {
+    max-width: 232px;
+}
+
+.delivery-text:nth-child(2) {
+    max-width: 232px;
+}
+
+.delivery-text:nth-child(3) {
+    max-width: 228px;
+}
+
+.delivery-text:nth-child(4) {
+    max-width: 232px;
+}
+
+.delivery-namber {
+    border-radius: 100%;
+    stroke-width: 1px;
+    border: 1px solid #000;
+    width: 40px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 8px;
+    /* margin-left: 96px; */
+}
+
+.delivery-namber-list {
+    width: 288px;
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
+}
+
+.delivery-photo {
+    width: 320px;
+    height: 135px;
+}
+
+.delivery-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 60px;
+}
+
+.delivery-subbox {
+    display: flex;
+    /* position: relative; */
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.delivery-line {
+    outline: 0px solid #111111;
+    width: 100%;
+    height: 1px;
+    background-color: #111111;
+    margin-top: 14px;
+}
+
+.delivery-title {
+    font-size: 24px;
+}
