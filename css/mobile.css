@@ -54,6 +54,9 @@
     height: 24px;
 }
 
+.header-item-mobile {
+    display: block;
+}
 .header-nav {
     display: flex;
 }
