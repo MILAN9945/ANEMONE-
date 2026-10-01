@@ -48,6 +48,11 @@
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
+.heder-burger {
+    
+    width: 24px;
+    height: 24px;
+}
 
 .header-nav {
     display: flex;
