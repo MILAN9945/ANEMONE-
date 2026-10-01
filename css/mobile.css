@@ -379,8 +379,8 @@
 
 .blog-title {
     font-weight: 700;
-font-size: 24px;
-color: #000;
+    font-size: 24px;
+    color: #000;
 }
 
 .blog-list {
@@ -479,15 +479,17 @@ color: #000;
     background-color: #000000;
     padding: 32px 0px;
 }
+
 .footer-container {
     display: flex;
-    flex-wrap:wrap;
-    gap: 44px;
+    flex-wrap: wrap;
+    gap: 32px;
 }
 
 .footer-logo-link {
     display: none;
 }
+
 .footer-navigation {
     font-weight: 700;
     font-size: 18px;
@@ -496,8 +498,235 @@ color: #000;
 
     margin-bottom: 18px;
 }
+
 .footer-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-links {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--link-color);
+    font-family: "Inter";
+}
+
+.footer-opening {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--footer-opening-color);
+    font-family: "Inter";
+    margin-bottom: 18px;
+}
+
+.footer-mesengers {
+    display: flex;
+    gap: 14px;
+}
+
+.footer-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--footer-text-color);
+    font-family: "Inter";
+}
+
+.footer-contact {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--footer-contact-color);
+    font-family: "Inter";
+
+    margin-bottom: 18px;
+}
+
+.footer-mention {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--link-color);
+    font-family: "Inter";
+}
+
+.footer-mesengers {
+    margin-left: none;
+}
+
+.footer-icon {
+    fill: none;
+    stroke: #ffffff;
+    width: 28px;
+    height: 28px;
+}
+
+
+
+
+
+/* backdrop  */
+
+
+.backdrop {
+    background-color: #00000030;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal {
+    background-color: #fff;
+    width: 272px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 15px; */
+
+}
+
+.modal-img {
+    /* border-radius: 15px; */
+    width: 272px;
+    height: 121px;
+}
+
+.modal-img:hover {
+    transform: rotate(-360deg);
+    transition-property: background-color, transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 500ms;
+
+}
+
+.subbox {
+    padding: 18px 16px 28px;
+    position: relative;
+}
+
+@keyframes animateY110 {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+
+        transform: translateX(-410px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.close {
+    background-color: transparent;
+    position: absolute;
+    top: -100px;
+    right: 14px;
+    border: none;
+    cursor: pointer;
+    /* animation: animateY110 3000ms infinite 100ms; */
+
+}
+
+.modal-close {
+    stroke: #000000;
+    fill: #000000;
+    width: 18px;
+    height: 18px;
+    transition: stroke 300ms ease, background-color 100ms ease;
+}
+
+
+.close:hover .modal-close {
+    stroke: #E25B41;
+    background-color: brown;
+    transform: scale(2.35);
+}
+
+
+.modal-title {
+    font-weight: 600;
+    font-size: 19px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 14px;
+
+}
+
+.modal-title:hover {
+    background-color: rgb(188, 63, 32);
+    color: #e87f54;
+    transform: scale(1.6);
+    transition-duration: 500ms;
+    transition-delay: 500ms;
+}
+
+.modal-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    color: #5c5c5c;
+    max-width: 236px;
+    margin-bottom: 18px;
+}
+
+.modal-lbl {
+    font-weight: 500;
+    font-size: 10 px;
+    color: #5c5c5c;
+}
+
+.modal-input {
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 18px;
+    margin-top: 8px;
+    padding-left: 11px;
+}
+
+.submit {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+
+    background-color: #E86F54;
+}
+
+.submit:hover {
+    background-color: brown;
+    transform: rotate(720deg);
+    transition-property: background-color, transform;
+    transition-duration: 2000ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2000ms;
+}
+
+/* .modal-img {
+    width: 271px;
+} */
