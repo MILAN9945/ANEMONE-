@@ -29,5 +29,9 @@
   <symbol id="icon-Burger" viewBox="0 0 32 32">
 <path d="M4 5.333h24v2.667h-24v-2.667zM12 14.667h16v2.667h-16v-2.667zM4 24h24v2.667h-24v-2.667z"></path>
 </symbol>
+<symbol id="mobile-clos-menu" viewBox="0 0 24 24" fill="none"> 
+<path d="M18 6L6 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
 </defs>
 </svg>
