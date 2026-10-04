@@ -12,6 +12,10 @@
         margin-right: auto;
     }
 
+    .header-item-mobile {
+        display: none;
+    }
+
     .header-logo {
         width: 72px;
         height: 57px;
