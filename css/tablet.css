@@ -292,7 +292,9 @@
     }
 
     .footer-mesengers {
+        flex-direction: column;
         gap: 18px;
+        margin-left: auto;
     }
 
     .footer-text {

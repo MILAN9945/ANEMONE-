@@ -482,7 +482,6 @@
     width: 153px;
 }
 
-
 /* секція footer  */
 
 .footer {
@@ -493,8 +492,44 @@
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
+    justify-content: space-between;
+    row-gap: 32px; 
 }
+
+.footer-logo-box {
+    display: none;
+}
+
+
+.footer-link-box,
+.footer-opening-box,
+.footer-contact-box {
+    width: calc(50% - 16px);
+}
+
+
+.footer-link-box {
+    order: 1; 
+}
+
+.footer-opening-box {
+    order: 2; 
+}
+
+.footer-contact-box {
+    order: 3; 
+}
+
+.footer-mesengers {
+    order: 4; 
+    width: calc(50% - 16px);
+    display: flex;
+    gap: 14px;
+    margin-left: 0;
+    
+    margin-top: 10px; 
+}
+
 
 .footer-logo-link {
     display: none;
@@ -504,68 +539,77 @@
     font-weight: 700;
     font-size: 18px;
     color: var(--footer-navigation-color);
-    font-family: "Inter";
-
+    font-family: "Inter", sans-serif;
     margin-bottom: 18px;
+    margin-top: 0; 
 }
 
 .footer-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
 }
 
 .footer-contacts {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .footer-links {
     font-weight: 500;
     font-size: 16px;
     color: var(--link-color);
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
 }
 
 .footer-opening {
     font-weight: 700;
     font-size: 18px;
     color: var(--footer-opening-color);
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     margin-bottom: 18px;
+    margin-top: 0; 
 }
 
-.footer-mesengers {
+.footer-times {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
     display: flex;
-    gap: 14px;
+    flex-direction: column;
 }
 
 .footer-text {
     font-weight: 500;
     font-size: 14px;
     color: var(--footer-text-color);
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
+    margin: 0; 
 }
 
 .footer-contact {
     font-weight: 700;
     font-size: 18px;
     color: var(--footer-contact-color);
-    font-family: "Inter";
-
+    font-family: "Inter", sans-serif;
     margin-bottom: 18px;
+    margin-top: 0;
 }
 
 .footer-mention {
     font-weight: 500;
     font-size: 14px;
     color: var(--link-color);
-    font-family: "Inter";
-}
-
-.footer-mesengers {
-    margin-left: none;
+    font-family: "Inter", sans-serif;
+    text-decoration: none; 
 }
 
 .footer-icon {
@@ -573,8 +617,8 @@
     stroke: #ffffff;
     width: 28px;
     height: 28px;
+    display: block;
 }
-
 
 
 
