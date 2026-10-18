@@ -43,7 +43,7 @@
         display: none;
     }
 
-    .hero-img-desctope {
+    .header-btn {
         display: block;
         width: 166px;
         height: 166px;
@@ -52,10 +52,11 @@
 
     /* секція about */
     .about-box {
-        gap: 90px;
+        /* gap: 90px; */
     }
 
     .about-text {
+        max-width: 510px;
         font-size: 22px;
     }
 
@@ -226,6 +227,10 @@
     }
 
     .footer-logo-link {
+        display: block;
+    }
+
+    .footer-logo-box {
         display: block;
     }
 

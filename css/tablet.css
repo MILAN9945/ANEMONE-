@@ -51,7 +51,7 @@
         gap: 470px;
     }
 
-    .hero-img-tablet {
+    .header-btn {
         display: flex;
         width: 145px;
         height: 150px;
@@ -282,6 +282,7 @@
 
     .footer-container {
         flex-wrap: nowrap;
+        gap: 44px;
     }
 
     .footer-navigation {

@@ -125,20 +125,20 @@
     align-items: center;
 }
 
-.hero-img-mobile {
+.header-btn {
     flex-shrink: 0;
     width: 64px;
     height: 76px;
     margin-top: 133px;
 }
 
-.hero-img-tablet {
+/* .hero-img-tablet {
     display: none;
 }
 
 .hero-img-desctope {
     display: none;
-}
+} */
 
 /* секція about */
 .about {
