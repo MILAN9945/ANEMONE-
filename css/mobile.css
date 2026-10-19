@@ -59,6 +59,7 @@
 .header-item-mobile {
     display: block;
 }
+
 .header-nav {
     display: flex;
 }
@@ -71,20 +72,32 @@
 .header-tel:hover {
     fill: #e87f54;
 }
-.header-btn {
-  
-}
+
+.header-btn {}
 
 /* секція hero */
 
 .hero {
+
     padding: 44px 0px 50px;
-    background-image: url(../img/image_home_page.webp);
     background-size: 145px;
     background-repeat: no-repeat;
     background-position: center center;
 
+    background-image: url(../img/mobile/hero-mobile-1x.webp);
+
 }
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+
+    .hero {
+        background-image: url(../img/mobile/hero-mobile-2x.webp);
+    }
+
+}
+
 
 /* .hero-container {
     height: 793px;
@@ -497,7 +510,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 32px; 
+    row-gap: 32px;
 }
 
 .footer-logo-box {
@@ -513,25 +526,25 @@
 
 
 .footer-link-box {
-    order: 1; 
+    order: 1;
 }
 
 .footer-opening-box {
-    order: 2; 
+    order: 2;
 }
 
 .footer-contact-box {
-    order: 3; 
+    order: 3;
 }
 
 .footer-mesengers {
-    order: 4; 
+    order: 4;
     width: calc(50% - 16px);
     display: flex;
     gap: 14px;
     margin-left: 0;
-    
-    margin-top: 10px; 
+
+    margin-top: 10px;
 }
 
 
@@ -545,14 +558,14 @@
     color: var(--footer-navigation-color);
     font-family: "Inter", sans-serif;
     margin-bottom: 18px;
-    margin-top: 0; 
+    margin-top: 0;
 }
 
 .footer-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    list-style: none; 
+    list-style: none;
     padding: 0;
     margin: 0;
 }
@@ -580,11 +593,11 @@
     color: var(--footer-opening-color);
     font-family: "Inter", sans-serif;
     margin-bottom: 18px;
-    margin-top: 0; 
+    margin-top: 0;
 }
 
 .footer-times {
-    list-style: none; 
+    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
@@ -596,7 +609,7 @@
     font-size: 14px;
     color: var(--footer-text-color);
     font-family: "Inter", sans-serif;
-    margin: 0; 
+    margin: 0;
 }
 
 .footer-contact {
@@ -613,7 +626,7 @@
     font-size: 14px;
     color: var(--link-color);
     font-family: "Inter", sans-serif;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .footer-icon {
@@ -833,7 +846,7 @@
     width: 24px;
     height: 24px;
     fill: #fff;
-    
+
 }
 
 .mobile-menu-list {

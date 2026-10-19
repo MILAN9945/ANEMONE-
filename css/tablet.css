@@ -31,6 +31,18 @@
     .hero {
         padding: 140px 0px 50px;
         background-size: 390px;
+        background-image: url(../img/tablet/hero-tablet-1x.webp);
+
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+
+        .hero {
+            background-image: url(../img/tablet/hero-tablet-2x.webp);
+        }
+
     }
 
     .hero-title {
