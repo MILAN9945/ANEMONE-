@@ -311,11 +311,20 @@
 /* секція delivery */
 
 .delivery {
-    background-image: url(../img/image_delivery.webp);
+    background-image: url(../img/mobile/delivery-mobile-1x.webp);
     padding-bottom: 100px;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% 135px;
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+
+    .delivery {
+        background-image: url(../img/mobile/delivery-mobile-2x.webp);
+    }
+
 }
 
 .delivery-text {

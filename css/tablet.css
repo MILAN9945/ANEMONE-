@@ -174,9 +174,18 @@
     /* секція delivery */
 
     .delivery {
-
+background-image: url(../img/tablet/delivery-tablet-1x.webp);
         padding-bottom: 250px;
         background-size: 100% 264px;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+
+        .delivery {
+            background-image: url(../img/tablet/delivery-tablet-2x.webp);
+        }
+
     }
 
     .delivery-text {

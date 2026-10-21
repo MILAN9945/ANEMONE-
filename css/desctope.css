@@ -130,9 +130,18 @@
     /* секція delivery */
 
     .delivery {
-
+background-image: url(../img/desctop/delivery-desctop-1x.webp);
         padding-bottom: 391px;
         background-size: 100% 391px;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+
+        .delivery {
+            background-image: url(../img/desctop/delivery-desctop-2x.webp);
+        }
+
     }
 
     .delivery-text {
